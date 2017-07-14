@@ -19,7 +19,9 @@ sentence = sentence+" "+ randomWord();
 }
 return sentence.substr(0,2).toUpperCase()+sentence.substr(2)+".";
 }
+for(var i =0; i<25;i++)
 console.log(randomSentence());
+/*console.log(randomSentence());
 var firstPokemon = ["Pikachu",60,100];
 var secondPokemon = ["Blaziken",10,180];
 var thirdPokemon = ["Gyrados",40,150];
@@ -47,4 +49,4 @@ while(thirdPokemon[2]>=0){
     if(fourthPokemon[2]<= 0){
         console.log(fourthPokemon[0]+" fainted in battle!");
     }
-}
+}*/
